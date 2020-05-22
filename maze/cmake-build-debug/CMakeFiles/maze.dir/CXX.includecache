@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tensae/Desktop/CSS342/maze/creature.cpp
+creature.h
+/Users/tensae/Desktop/CSS342/maze/creature.h
+
+/Users/tensae/Desktop/CSS342/maze/creature.h
+maze.h
+/Users/tensae/Desktop/CSS342/maze/maze.h
+ostream
+-
+
+/Users/tensae/Desktop/CSS342/maze/main.cpp
+creature.h
+/Users/tensae/Desktop/CSS342/maze/creature.h
+maze.h
+/Users/tensae/Desktop/CSS342/maze/maze.h
+iostream
+-
+cassert
+-
+sstream
+-
+
+/Users/tensae/Desktop/CSS342/maze/maze.h
+ostream
+-
+

@@ -1,0 +1,40 @@
+Sat Jan 25 18:39:42 PST 2020
+*** compiling with clang++ to create an executable called myprogram
+clang version 7.0.1 (tags/RELEASE_701/final)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /opt/rh/llvm-toolset-7.0/root/usr/bin
+*** running clang-tidy using options from .clang-tidy
+LLVM (http://llvm.org/):
+  LLVM version 7.0.1
+  Optimized build.
+  Default target: x86_64-unknown-linux-gnu
+  Host CPU: broadwell
+6137 warnings generated.
+12618 warnings generated.
+20108 warnings generated.
+Suppressed 20108 warnings (20108 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
+*** running myprogram
+xxxxxxxxxxxxxxxxxx x
+x     x       xxxx x
+x xxxxx xxxxx   xx x
+x xxxxx xxxxxxx xx x
+x x          xx xx x
+x xxxxxxxxxx xx    x
+xxxxxxxxxxxxxxxxxxxx
+
+
+Path: EEENNNEEEEEESEESSSEEENNNNN
+xxxxxxxxxxxxxxxxxx*x
+x     x*******xxxx*x
+x xxxxx*xxxxx***xx*x
+x xxxxx*xxxxxxx*xx*x
+x x+****     xx*xx*x
+x xxxxxxxxxx xx****x
+xxxxxxxxxxxxxxxxxxxx
+
+
+Done!
+*** cleaning up, deleting myprogram
+Sat Jan 25 18:39:57 PST 2020
